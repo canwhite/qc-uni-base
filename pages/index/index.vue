@@ -1,6 +1,6 @@
 <template>
 	<view >
-		<cu-custom bgColor="my_bg"  :isBack="true">
+		<cu-custom bgColor="bg-white"  :isBack="true">
 <!-- 			<block slot="backText">返回</block> -->
 			<block slot="content">base</block>
 			<block slot="right">
@@ -95,7 +95,7 @@
 	
 	
 	.my_bg{
-		background: #fff;
+		background-color: #FFFFFF;
 	}	
 
 	.app-container {
